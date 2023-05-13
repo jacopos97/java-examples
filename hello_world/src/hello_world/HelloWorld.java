@@ -3,6 +3,8 @@ package hello_world;
 public class HelloWorld {
 	public static void main( String[] args )
     {
-        System.out.println( "Hello World!  42" );
+        System.out.println( "Hello World!!!" );
+        HelloMessage helloMessage = new HelloMessage();
+        helloMessage.getMessage();
     }
 }
